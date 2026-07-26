@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/dmx-compressor/
+packages:
+- language: python
+  registry: pypi
+  name: dmx-compressor
+  url: https://pypi.org/project/dmx-compressor/
+  install: pip install dmx-compressor
+  repo: https://github.com/d-matrix-ai/dmx-compressor
+  docs: https://dmx-compressor.readthedocs.io/en/latest/
+  license: Apache-2.0
+  official: true
+  description: >-
+    The DMX toolkit — a PyTorch library from d-Matrix that extends PyTorch with
+    hardware-efficient capabilities (custom low-precision numerical formats,
+    fine-grain structured weight sparsity, custom operator approximation) for
+    co-designing models to d-Matrix inference hardware. Wraps models in a
+    DmxModel container and integrates with Hugging Face pipelines.

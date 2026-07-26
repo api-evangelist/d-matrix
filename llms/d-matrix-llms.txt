@@ -1,0 +1,26 @@
+# d-Matrix
+
+> d-Matrix builds ultra-low-latency, energy-efficient AI inference infrastructure for generative AI in the datacenter. Its memory-centric compute architecture spans the Corsair inference accelerator, the JetStream accelerator-to-accelerator interconnect, the SquadRack rack-scale system, and the 3DIMC 3D digital in-memory compute technology, complemented by the open-source dmx-compressor (DMX) PyTorch toolkit for model co-design. This is an API Evangelist network profile; d-Matrix is a compute-hardware company and does not currently publish a public web API.
+
+## Company
+- Website: https://www.d-matrix.ai/
+- About: https://www.d-matrix.ai/about/
+- Blog: https://www.d-matrix.ai/blog/
+- Careers: https://www.d-matrix.ai/careers/
+- Contact: https://www.d-matrix.ai/contact/
+
+## Open Source
+- GitHub organization: https://github.com/d-matrix-ai
+- dmx-compressor (DMX toolkit, PyTorch): https://github.com/d-matrix-ai/dmx-compressor
+- dmx-compressor on PyPI: https://pypi.org/project/dmx-compressor/
+- dmx-compressor documentation: https://dmx-compressor.readthedocs.io/en/latest/
+
+## Products
+- Corsair — datacenter AI inference accelerator (chiplet-based, models up to 100B parameters)
+- JetStream — accelerator-to-accelerator communications platform
+- SquadRack — disaggregated, standards-based rack-scale inference solution
+- 3DIMC — 3D stacked digital in-memory compute
+
+## Legal
+- Terms of Use: https://www.d-matrix.ai/terms-of-use/
+- Privacy Policy: https://www.d-matrix.ai/privacy-policy/

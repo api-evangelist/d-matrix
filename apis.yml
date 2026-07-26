@@ -1,8 +1,31 @@
 aid: d-matrix
 name: d-Matrix
-description: 'd-Matrix is a company surfaced as a portfolio company of playground-global and added to
-  the API Evangelist network as a stub for enrichment. Sector: compute. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  d-Matrix builds ultra-low-latency, energy-efficient AI inference infrastructure
+  for generative AI in the datacenter. Its memory-centric compute architecture,
+  next-generation I/O, and stacked-DRAM approach are delivered through the Corsair
+  inference accelerator (chiplet-based, supporting models up to 100B parameters),
+  the JetStream accelerator-to-accelerator communications platform, the SquadRack
+  disaggregated rack-scale solution, and the 3DIMC 3D digital in-memory compute
+  technology. Founded by Sid Sheth and Sudeep Bhoja and headquartered in Santa
+  Clara, the company has raised roughly $450M (including a $275M Series C) from
+  investors such as Qatar Investment Authority, Temasek, and SK Hynix. d-Matrix
+  also maintains the open-source dmx-compressor (DMX) PyTorch toolkit for
+  co-designing models to its inference hardware. This API Evangelist network
+  profile tracks d-Matrix as a compute-hardware provider; it does not currently
+  publish a public web API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.d-matrix.ai/wp-content/uploads/2023/08/d-matrix-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/d-matrix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Compute
+- AI
+- Inference
+- Hardware
+- Accelerator
+- Machine Learning
+- Semiconductors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.d-matrix.ai/
+- type: Documentation
+  url: https://dmx-compressor.readthedocs.io/en/latest/
+- type: Blog
+  url: https://www.d-matrix.ai/blog/
+- type: GitHubOrganization
+  url: https://github.com/d-matrix-ai
+- type: Support
+  url: https://www.d-matrix.ai/contact/
+- type: TermsOfService
+  url: https://www.d-matrix.ai/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.d-matrix.ai/privacy-policy/
+- type: Packages
+  url: packages/d-matrix-packages.yml
+- type: SDKs
+  url: packages/d-matrix-packages.yml
+- type: DomainSecurity
+  url: security/d-matrix-domain-security.yml
+- type: LLMsTxt
+  url: llms/d-matrix-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

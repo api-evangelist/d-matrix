@@ -1,0 +1,32 @@
+# Front Door AI Index — d-matrix — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: d-matrix
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.d-matrix.ai
+  final_host: www.d-matrix.ai
+  ownership: own
+  owner: d-matrix
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 63
+  host_score: 63
+  density: 73.09
+  words: 862
+  tiers:
+    agentic: 23
+    core: 39
+    model: 1
+  ambiguous: 5
+  top_terms:
+    AI: 34
+    inference: 23
+    intelligence: 4
+    gen ai: 3
+    ChatGPT: 1
+    LLMs: 1
+    agent: 1
+    generative ai: 1

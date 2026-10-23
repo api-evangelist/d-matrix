@@ -1,0 +1,36 @@
+generated: '2026-10-23'
+method: searched
+checked:
+- hugging-face/integrations/hugging-face-integration-edges.yml
+source:
+- hugging-face/integrations/hugging-face-integration-edges.yml
+edges:
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/d-matrix
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - d-matrix/Llama-3.1-8B-Instruct
+  - d-matrix/Llama3-8b
+  - d-matrix/distilgpt2
+  - d-matrix/gemma-2b
+  - d-matrix/gpt-j-6b
+  - d-matrix/Mistral-7B
+  - d-matrix/Llama-3.2-1B
+  - d-matrix/gpt2-xl
+  - d-matrix/dmx_perplexity
+  - d-matrix/dmxMetric
+  - d-matrix/clip_eval
+  listing_count: 2
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub models
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
